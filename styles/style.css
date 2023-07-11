@@ -1,0 +1,283 @@
+/* Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body_mid {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.btn-primary {
+    border: none;
+    background: #E55473;
+    padding: 20px 43px;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Header Section CSS */
+.body_main {
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+}
+
+.header_mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_text h1 {
+    font-size: 75px;
+    padding: 0px 200px 0px 0px;
+}
+
+.header_text p {
+    line-height: 2;
+    padding: 0px 200px 0px 0px;
+    color: gray;
+    margin-top: 20px;
+}
+
+/* Featured Flower Section CSS */
+.body_mid > h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.body_mid > p {
+    text-align: center;
+    width: 40%;
+    padding: 25px 30px;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+.card_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.card {
+    height: 538px;
+    width: 464px;
+    border-radius: 285px 285px 0px 0px;
+    padding: 0;
+    background: red;
+    text-align: center;
+}
+
+.card > img {
+    width: 280px;
+}
+
+.card a {
+    display: block;
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+}
+
+.card_two > a {
+    margin-top: 157px;
+}
+
+.card_one {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.card_one > img {
+    margin-top: 150px;
+}
+
+.card_two {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.card_two > img {
+    margin-top: 150px;
+}
+
+.card_three {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.card_three > img {
+    margin-top: 117px;
+}
+
+/* Additional Section CSS */
+.add_sec {
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 0px;
+}
+
+.additional {
+    height: 100%;
+    width: 300px;
+    text-align: center;
+}
+
+/* Hot Deal CSS */
+.hot_deal_main {
+    height: auto;
+}
+
+.hot_deal_mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.hot_deal_text {
+    text-align: center;
+}
+
+.hot_deal_text h1>span {
+    color: #E55473;
+}
+
+.hot_deal_text p {
+    width: 70%;
+    margin: auto;
+    line-height: 2;
+}
+
+/* Insta Card CSS */
+.insta_sec {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Review Section CSS */
+.review_section > h1 {
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.review_section {
+    height: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.review_section_mid {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review_card {
+    height: 100%;
+    width: 250px;
+    background: #fff;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 0px gray;
+}
+
+.review_card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.review_card > p{
+    margin-top: 20px;
+}
+
+/* Email Section CSS */
+.email_section {
+    background: url("../Flower\ Asset/Rectangle 9.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.email_section .email_inside{
+    text-align: center;
+    padding: 120px 0px;
+}
+
+.email_inside .email > input {
+    height: 22px;
+    width: 600px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.email_inside .email > input::placeholder {
+    font-size: 16px;
+}
+
+/* Footer Section CSS */
+footer {
+    text-align: center;
+    color: white;
+}
+
+.footer_main {
+    padding: 100px 0px;
+    background: #111010;
+    height: auto;
+}
+
+footer .footer_main h1>span {
+    color: #E55473;
+}
+
+footer .footer_main p {
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer .footer_main .copyright {
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
